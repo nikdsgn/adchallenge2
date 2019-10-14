@@ -1,0 +1,50 @@
+// Colors
+
+$color-grey-dark: rgb(46, 46, 46);
+$color-white: #fff;
+$color-grey: rgb(123, 123, 123);
+$color-grey-light: rgb(194, 194, 194);
+
+
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    text-decoration: none;
+}
+
+
+body {
+    background: $color-white;
+        //padding: 2rem;
+        // margin: 0vw 10vw 0vw 10vw;
+
+    a {
+        text-decoration: none;
+        color: $color-grey-dark !important;
+    }
+   
+    h2 {
+        color: $color-grey-dark;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 200;
+        padding-bottom: 1rem;
+
+    a{
+        color:$color-grey !important;
+        &:hover{ color:#000 !important;}
+      }
+      
+    }
+
+    p {
+       color:$color-grey-dark;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}
+
+
+
